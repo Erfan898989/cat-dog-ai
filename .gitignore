@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset and downloaded archives
+data/
+*.zip
+
+# Trained models and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Secrets
+.env
+
+# Temporary files
+.cache/

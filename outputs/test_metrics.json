@@ -1,0 +1,43 @@
+{
+  "model": "mobilenet_v3_small",
+  "device": "cpu",
+  "best_epoch": 1,
+  "best_validation_loss": 0.2772881129726035,
+  "best_validation_accuracy": 0.9180327868852459,
+  "test_loss": 0.21494306723276774,
+  "test_accuracy": 0.9333333333333333,
+  "classification_report": {
+    "cat": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 30.0
+    },
+    "dog": {
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "f1-score": 0.9375,
+      "support": 30.0
+    },
+    "accuracy": 0.9333333333333333,
+    "macro avg": {
+      "precision": 0.9411764705882353,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9330357142857143,
+      "support": 60.0
+    },
+    "weighted avg": {
+      "precision": 0.9411764705882353,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9330357142857143,
+      "support": 60.0
+    }
+  },
+  "dataset_images_used": 600,
+  "split_sizes": {
+    "train": 479,
+    "validation": 61,
+    "test": 60
+  },
+  "training_seconds": 70.49
+}
