@@ -9,7 +9,8 @@ venv/
 # Dataset and downloaded archives
 data/
 *.zip
-
+.claude/
+.agents/
 # Trained models and checkpoints
 *.pth
 *.pt
