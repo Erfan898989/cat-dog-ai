@@ -12,8 +12,8 @@ data/
 .claude/
 .agents/
 # Trained models and checkpoints
-*.pth
-*.pt
+pth
+pt
 *.ckpt
 *.onnx
 
